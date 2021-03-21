@@ -1,6 +1,7 @@
 {-
  - factorial function.
  -}
+
 import "Contrib/Parse"
 import "Std/List"
 import "Std/Array2"
@@ -21,9 +22,11 @@ val Input = (cons >
          [13 "  And post o're Land and Ocean without rest:"]
          [14 "  They also serve who only stand and waite."]
          nil)
+         
+val lineCount = (list.size Input)
 
 
 run(
   (pr "input = "); 
-  (int.pr Input.size);
+  (int.pr lineCount);
 ())
