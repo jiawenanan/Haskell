@@ -1,0 +1,8 @@
+{-
+ - factorial function.
+ -}
+
+
+import !Std/List!
+val l = (cons 6 (cons 7 ( cons 8 nil)))
+run printi!(car (cdr l))
