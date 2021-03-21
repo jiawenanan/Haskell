@@ -2,9 +2,8 @@
  - factorial function.
  -}
 
-import "Contrib/Parse"
+
 import "Std/List"
-import "Std/Array2"
 
 val Input = (cons >
          [1 "WHEN I consider how my light is spent"]
@@ -23,12 +22,4 @@ val Input = (cons >
          [14 "  They also serve who only stand and waite."]
          nil)
          
-{-
-val lineCount = (list.size Input)
-
-
-run(
-  (pr "input = "); 
-  (int.pr lineCount);
-())
--}
+run printi!(car (cdr Input))
