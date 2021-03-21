@@ -23,5 +23,7 @@ val Input = (cons >
          nil)
 
 
-(pr "input = "); (int.pr Input.size);
-(nl);
+run(
+  (pr "input = "); 
+  (int.pr Input.size);
+())
