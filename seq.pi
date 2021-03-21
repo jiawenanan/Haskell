@@ -23,6 +23,7 @@ val Input = (cons >
          [14 "  They also serve who only stand and waite."]
          nil)
          
+{-
 val lineCount = (list.size Input)
 
 
@@ -30,3 +31,4 @@ run(
   (pr "input = "); 
   (int.pr lineCount);
 ())
+-}
